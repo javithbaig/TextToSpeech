@@ -1,0 +1,54 @@
+.widget-texttospeech-clickable {
+    cursor: pointer;
+}
+
+.widget-texttospeech {
+    display: inline-block;
+}
+
+.widget-texttospeech.badge:empty {
+    display: initial;
+    /* Fix padding to stay round */
+    padding: 3px 10px;
+}
+
+.widget-texttospeech.label:empty {
+    display: initial;
+    /* Fix padding to stay square */
+    padding: .2em .8em .3em;
+}
+
+.widget-texttospeech.badge {
+    min-width: 18px;
+    min-height: 18px;
+}
+
+
+.playbtn{
+    background-color: #22dd22;
+    border-radius: 15px;
+    height: 28px;
+    padding-top: 4px;
+    padding-left: 7px;
+    border: 1px solid;
+    margin-right: 5px;
+}
+
+.stopbtn{
+    background-color: #dd2222;
+    border-radius: 15px;
+    height: 28px;
+    padding-top: 4px;
+    padding-left: 7px;
+    border: 1px solid;
+    margin-right: 5px;
+}
+
+.pausebtn{
+    border-radius: 15px;
+    height: 28px;
+    padding-top: 4px;
+    padding-left: 7px;
+    border: 1px solid;
+    margin-right: 5px;
+}
